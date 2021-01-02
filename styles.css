@@ -1,0 +1,114 @@
+/*Global*/
+body {
+    background-color:LightSteelBlue;
+  }
+  
+div {
+    padding: 32px;
+}
+
+h1 {
+    font-family: "montserrat", sans-serif;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.ital {
+    font-style:italic;
+}
+
+/*Colors section*/
+
+#colors {
+    border: 8px solid black;
+    font-family: "montserrat", sans-serif;
+}
+
+#LightSlateGray {
+    background-color:lightslategray;   
+}
+
+#SeaShell {
+    background-color:seashell;
+}
+
+#SkyBlue {
+    background-color:skyblue;
+}
+
+#Tomato  {
+    background-color:tomato;
+}
+#Wheat {
+    background-color:wheat;
+}
+
+.colorSwatch {
+    width:200px;
+    height:100px;
+    border:2px solid black;
+}
+
+#colorContainer {
+    display:flex;
+    flex-flow: row wrap;
+    text-align:center;
+    justify-content: space-between;
+}
+
+
+/*Fonts section */
+
+#fontContainer {
+    display:flex;
+    flex:0;
+}
+
+#fonts {
+    border: 8px solid black;
+    font-family: "montserrat", sans-serif;
+}
+.stencil {
+    font-family:'Big Shoulders Stencil Text', cursive;
+    font-size:24px;
+}
+.stencil2 {
+    font-family:'Big Shoulders Stencil Text', cursive;
+    font-size:32px;
+}
+
+.bungee {
+    font-family: 'Bungee Outline', cursive;
+    font-size:45px;
+    background-color:tomato;
+
+}
+.bungee2 {
+    font-family: 'Bungee Outline', cursive;
+    font-size:32px;
+    background-color:tomato;
+}
+
+.lobster {
+    font-family: 'Lobster', cursive;
+    font-size:24px;
+}
+
+.lobster2 {
+    font-family: 'Lobster', cursive;
+    font-size:32px;
+}
+
+.mont {
+    font-family: "montserrat", sans-serif;
+    font-size:16px;
+}
+
+/*text section*/
+
+#text div {
+    border:8px solid black;
+    margin-top:20px;
+}
